@@ -176,6 +176,11 @@ body{
     margin-top: 8%;
     background-color: rgb(49, 0, 39);
     box-shadow: -10px 10px rgb(139, 0, 109);
+    padding-top: 1%;
+    padding-left: 1%;
+     width: 100%;
+     height: 70%;
+ 
   }
 
   .title{
@@ -259,6 +264,11 @@ div.gallery {
   div.gallery img {
     width: 100%;
     height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline;
   }
   
   div.desc {
@@ -282,39 +292,40 @@ div.gallery {
   height: 160px;
   width: 140px;
   float: right;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
 }
 
 .nam{
   height: 160px;
   width: 140px;
   float:left;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
 }
 
 .cos{
   height: 160px;
   width: 140px;
   float: left;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
 }
 
 .dnv{
   height: 160px;
   width: 140px;
   float: left;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
 }
 
 th{
   font-family: 'About Love';
   font-size: 40px;
+  align-items: center;
 }

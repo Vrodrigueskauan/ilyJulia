@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'About Love';
+    src: url('../Fontes/AboutLove.ttf') 
+}
+
+
+
+h1{
+    padding-top: 1%;
+    color: rgb(174, 1, 197);
+    text-align: center;
+    font-size: 400%;
+    font-family: 'About Love'
+
+}
+
+h2{
+    padding-top: 1%;
+    padding-left: 1%;
+    color: rgb(174, 1, 197);
+    font-size: 170%;
+    text-align: left;
+    font-family: 'About Love'
+}
+
+h3{
+    padding-top: 1%;
+    color: rgb(174, 1, 197);
+    text-align: right; 
+    padding-right: 10%;
+    font-size: 160%;
+    font-family: 'About Love'
+}
+
+h4{
+
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: rgb(174, 1, 197);
+  font-size: 170%;
+  text-align: right;
+  font-family: 'About Love'
+
+}
+
+h5{
+
+  padding-left: 1%;
+  padding-right: 1%;
+  color: rgb(174, 1, 197);
+  font-size: 250%;
+  text-align: center;
+  font-family: 'About Love'
+
+
+}
+
+
+
+
+
+p{
+    padding-top: 1%;
+    padding-left: 1%;
+    color: white;
+    font-size: 100%
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color:  rgb(49, 0, 39);
+    color: rgb(207, 81, 180);
+    padding: 1.5%;  
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+}
+
+body{
+    background-color:  rgb(168, 0, 135);
+    color: rgb(207, 81, 180);
+    font-family: 'Josefin Sans', sans-serif;
+ }
+
+
+ 
+ .container{
+    background-color: rgb(49, 0, 39);
+    margin: auto;
+    width: 80%;
+    box-shadow: -10px 10px rgb(31, 3, 25);
+
+ }
+
+ .Logo{
+    transition: 0.5s;
+    text-align: right;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    
+ }
+
+ .Logo:hover{
+    transform: scale(105%);
+ }
+
+ 
+
+ .itens_menu{
+    margin-right: ;
+    margin-bottom: ;
+ }
+
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   rgb(49, 0, 39);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'About Love'
+  }
+  
+  li {
+    float: left;
+    padding-top: 1%;
+    color: rgb(174, 1, 197);
+    text-align: right; 
+    padding-right: 10%;
+    font-size: 160%;
+    font-family: 'About Love'
+  }
+  
+  li a {
+    display: block;
+    color:  rgb(207, 81, 180);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(49, 0, 39);
+  }
+  
+  .active {
+    background-color: rgb(49, 0, 39);
+  }
+   
+
+  .test{
+    float:left; width:42px;height:42px;
+  }
+
+  .imagem{
+    height: 5%;
+  }
+  
+  .banner{
+    margin-top: 8%;
+    background-color: rgb(49, 0, 39);
+    box-shadow: -10px 10px rgb(139, 0, 109);
+    padding-top: 1%;
+    padding-left: 1%;
+     width: 100%;
+     height: 70%;
+ 
+  }
+
+  .title{
+    padding-top: 1%;
+    color: rgb(174, 1, 197);
+    text-align: right; 
+    padding-right: 10%;
+    font-size: 250%;
+    font-family: 'About Love'
+}
+
+
+.primeira{
+    float: left;
+    height: 248px;
+    width: 250px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.naruhina{
+    float: right;
+    height: 268px;
+    width: 250px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.mya{
+    float: left;
+    height: 230px;
+    width: 220px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.pass{
+    float: right;
+    height: 230px;
+    width: 220px;
+    padding-left: 1%;
+
+}
+
+.com{
+    float: left;
+    height: 230px;
+    width: 350px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.dja{
+
+    float: left;
+    height: 190px;
+    width: 275px;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    
+
+}
+  
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #b60079;
+    float: left;
+    width: 180px;
+    background-color:rgb(49, 0, 39); ;
+    transition: 0.5s;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #d40040;
+    transform: scale(105%);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+.qrido{
+
+    float: left;
+    height:110px;
+    width: 110px;
+    padding-left: 1%;
+    padding-right: 1%;
+
+
+}
+
+.juni{
+  height: 160px;
+  width: 140px;
+  float: right;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+.nam{
+  height: 160px;
+  width: 140px;
+  float:left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+.cos{
+  height: 160px;
+  width: 140px;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+.dnv{
+  height: 160px;
+  width: 140px;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+}
+
+th{
+  font-family: 'About Love';
+  font-size: 40px;
+  align-items: center;
+}
+
+.

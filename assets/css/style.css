@@ -1445,3 +1445,12 @@ section {
 .cortxt{
   text-align: center;
 }
+
+
+.conteudo{
+  width: 80%;
+  background-color: #750375;
+  margin: auto;
+  box-shadow: -10px 10px   #2f012f;
+
+}
